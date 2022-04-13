@@ -1,0 +1,5 @@
+tenancy_ocid     = "<replace>"
+user_ocid        = "<replace>"
+fingerprint      = "<replace>"
+private_key_path = "<replace>"
+region           = "uk-london-1"
