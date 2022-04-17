@@ -26,3 +26,8 @@ variable "vcn_display_name" {
   type    = string
   default = "tor_vcn"
 }
+
+variable "subnet_display_name" {
+  type    = string
+  default = "tor_regional_subnet"
+}
