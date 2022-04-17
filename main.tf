@@ -1,6 +1,5 @@
 module "networking" {
-  source              = "./modules/networking"
-  compartment_ocid    = var.compartment_ocid
-  vcn_display_name    = var.vcn_display_name
-  subnet_display_name = var.subnet_display_name
+  source           = "./modules/networking"
+  compartment_ocid = var.compartment_ocid
+  name_prefix      = var.name_prefix
 }

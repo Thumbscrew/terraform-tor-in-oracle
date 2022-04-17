@@ -1,6 +1,6 @@
 resource "oci_core_subnet" "regional_subnet" {
   cidr_block        = "10.0.0.0/26"
-  display_name      = var.subnet_display_name
+  display_name      = "${var.name_prefix}-subnet"
   compartment_id    = var.compartment_ocid
   vcn_id            = oci_core_vcn.vcn.id
   security_list_ids = [oci_core_vcn.vcn.default_security_list_id]

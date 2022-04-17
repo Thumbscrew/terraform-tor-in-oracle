@@ -22,12 +22,7 @@ variable "compartment_ocid" {
   type = string
 }
 
-variable "vcn_display_name" {
+variable "name_prefix" {
   type    = string
-  default = "tor_vcn"
-}
-
-variable "subnet_display_name" {
-  type    = string
-  default = "tor_regional_subnet"
+  default = "tor-in-oracle"
 }
