@@ -17,3 +17,12 @@ variable "private_key_path" {
 variable "region" {
   type = string
 }
+
+variable "compartment_ocid" {
+  type = string
+}
+
+variable "name_prefix" {
+  type    = string
+  default = "tor-in-oracle"
+}
